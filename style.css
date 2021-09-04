@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+body{
+  font-family: lato;
+  text-align: center;
+  background-color: #157575;
+  color: #ead7c7;
+}
+
+label{
+  margin: auto;
+  display: block;
+  padding: 0.5rem;
+}
+
+input{
+  background-color: #fceee5;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+button{
+  display: block;
+  margin: auto;
+  background-color: gold;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#output-box{
+  margin: 2rem;
+  background-color:black;
+  color: #ffffff;
+}

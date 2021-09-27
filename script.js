@@ -17,6 +17,9 @@ calculateProfitAndLoss(ip, qty, curr);
 }
 
 function calculateProfitAndLoss(initial, quantity, current){
+  if(initial<=0 || quantity<=0 || current<=0){
+    return outputBox.innerText = "Enter the positive numbers";
+  }
   if(initial > current){
      var loss = (initial - current) * quantity;
      var lossPercentage = (loss/initial)*100;
